@@ -1,0 +1,433 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+
+.body-wrapper{
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  width: 375px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(48,48,48,.15);
+  /*background: url('../images/background_golf.jpg') fixed;*/
+  background-size: 100%;
+}
+.card-header{
+  background-color: #C9FFD6;
+  font-size: 1.3rem;
+  border-radius: 25px;
+  text-align: center;
+}
+.card-body{
+  box-shadow: 0 2px 20px 0 rgba(48,48,48,.15);
+  cursor: hand;
+  cursor:pointer;
+  border-radius: 15px;
+  background-color: #ffff;
+}
+.title1{
+  margin-bottom: 15px;
+
+}
+.title2{
+  margin:10px;
+}
+
+.section-login{
+  top: 55px;
+}
+
+.section-title{
+  position: relative;
+  min-height: 100px;
+  padding: 15px 0 12px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.section-home{
+  position: relative;
+  min-height: 55px;
+  padding: 15px 0 12px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.section-add{
+  background-color: #fcfcfcfc;
+  padding: 25px 15px 15px 25px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.section-main{
+  background-color: #fcfcfcfc;
+  padding: 25px 15px 25px 15px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.section-edti{
+  background-color: #fcfcfcfc;
+  padding: 5px 15px 25px 15px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.section-team{
+  background-color: #fcfcfcfc;
+  padding: 10px 15px 15px 25px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.section-rank{
+  background-color: #fcfcfcfc;
+  padding: 15px 15px 15px 25px;
+  margin-right: -10px;
+  margin-left: -10px;
+  box-shadow: 0 2px 20px 0 rgba(48,48,48,.3);
+}
+
+.section-rank-detail{
+  padding: 25px 15px 15px 25px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.section-btn{
+  padding: 25px 15px 15px 25px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.compe-title{
+  position: absolute;
+  top: 16px;
+  left: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 300px;
+  height: 55px;
+  box-shadow: 0 2px 20px 0 rgba(48,48,48,.3);
+}
+
+.title-text{
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 15px 15px 15px 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.title-page{
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.title-top{
+  padding-top: 75px;
+}
+
+/* ブロック系 */
+.link-block{
+  padding: 1rem;
+}
+
+.col100{
+  display: flex;
+  width: 100%;
+}
+.col90{
+  display: inline-block;
+  width: 90%;
+}
+.col60{
+  display: inline-block;
+  float: left;
+  width: 60%;
+ }
+ .col50{
+  display: inline-block;
+  float: left;
+  width: 50%;
+ }
+ .col40{
+  display: inline-block;
+  float: left;
+  width: 40%;
+}
+.col30{
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+.col20{
+  display: inline-block;
+  float: left;
+  width: 20%;
+}
+.col15{
+  display: inline-block;
+  float: left;
+  width: 15%;
+}
+.col10{
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
+.link-back{
+  margin-left: 1.5rem;
+  margin-top: 5px;
+  color: #2699FB;
+}
+.team-box{
+  background-color: #ffffff;
+  margin: 2px 2px 5px 2px;
+  border-radius: 5px;
+}
+
+
+/* コンペ詳細 */
+.compe_detail{
+  text-align: center;
+}
+
+
+/* ボタン系 */
+.btn-new{
+  width: 55%;
+  margin: 0 0 0 auto;
+}
+.btn-detail{
+  width: 40%;
+  margin: 0 0 0 auto;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #008316;
+  float: right;
+  box-shadow: 3px 3px #040404bf;
+}
+.btn-add{
+  width: 55%;
+  margin-right: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #008316;
+  margin-top:15px;
+}
+.btn-50 {
+  color: #fff;
+  background: linear-gradient(262deg, #0e905a, #18ef0a);
+  border-color: #c6dc34;
+  margin:10px;
+  width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 2px 3px 5px 0px #00000052;
+}
+
+.btn-dele{
+  color: #fff;
+  background-color: #008316;
+  border-color: #3490dc;
+  margin:10px;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+}
+
+.btn-edit{
+  width: 40%;
+  color: #008316;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: solid 2px #008316;
+  border-radius: 5px;
+  margin: 15px 0px 0px auto;
+  display: block
+  /*background-color: #008316;*/
+}
+
+.btn-fa{
+  position: absolute;
+  top: 92px;
+  right: 15px;
+  float: right;
+  cursor: hand;
+  cursor:pointer;
+}
+
+.back-box{
+  margin-bottom: 10px;
+}
+
+/* メンバー編集 */
+.member-erea{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.member-erea-col{
+  width:90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.member-btn{
+  width:90%;
+  border-radius: 5px;
+  text-align: center;
+}
+.member-select{
+  width: 85%;
+  border-radius: 5px;
+  text-align: -webkit-center;
+  margin: 2px 2px 5px 2px;
+}
+.member-dele{
+  width:10%;
+  border-radius: 5px;
+  text-align: center;
+  float: right;
+}
+
+/* 組編集 */
+.team{
+  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+/* スコア入力 */
+.score-name{
+  text-align: center;
+  vertical-align: middle;
+
+}
+.score-erea{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.score-erea-col{
+  width:85%;
+  text-align: center;
+}
+.score-btn{
+  width:85%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* ランキング */
+.rank-top{
+  font-size: 1.5rem;
+  display: flex;
+  text-align: center;
+}
+
+.rank-col1{
+  display: inline;
+  width: 30%;
+}
+.rank-col2{
+  display: inline;
+  width: 70%;
+}
+
+
+/*　スコア表示　*/
+.score-team{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+}
+.score-table{
+
+}
+.score-table th{
+  text-align: center;
+  font-size: 60%;
+}
+.score-table td{
+  text-align: center;
+}
+.score-rank{
+  width:12%;
+}
+.score-name{
+  width:38%;
+}
+.score-score{
+  width:10%;
+}
+
+
+/* 入力欄 */
+.inputarea{
+  width: 100%;
+  height: 40px;
+  margin: 10px 5px;
+}
+
+.textarea{
+  width: 100%;
+  height: 150px;
+  margin: 10px 5px;
+}
+
+.user-info{
+  width: 90%;
+}
+
+/* マイページ */
+.mypage-table{
+  width: 100%;
+}
+.mypage td{
+  width: 30%;
+  vertical-align: middle;
+}
+.mypage th{
+  width: 70%;
+  padding-left: 10px;
+  border-bottom: solid 1.5px #adadad;
+}
+.mypage-edit th{
+  width: 70%;
+  padding-left: 10px;
+}
+.mypage-input{
+  padding-left: 8px;
+  border: none;
+  border-bottom: solid 1.5px #adadad;
+　outline: none;
+}
+
+#app{
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+  padding-bottom: 120px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+.footer{
+  width: 100%;
+  background-color: #2E8D28;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-right: -20px;
+  margin-left: : -20px;
+  position: absolute;/*←絶対位置*/
+  left: 0;
+  bottom: 0; /*下に固定*/
+}
